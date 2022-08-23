@@ -1,12 +1,17 @@
 :root {
   --primaryColor: rgb(223, 56, 50);
   --textColor: black;
+  --bgColor: #fef2da;
 }
 
 * {
   margin: 0%;
   box-sizing: border-box;
   font-family: Verdana, Tahoma, sans-serif;
+}
+
+body {
+  background-color: var(--bgColor);
 }
 
 button {
@@ -32,6 +37,7 @@ p {
 
 a {
   font-family: "Exo2";
+  text-decoration: none;
 }
 
 .btn-right {
