@@ -28,8 +28,9 @@ p {
   flex-direction: column;
   align-items: center;
   padding: 24px;
-  max-width: 245px;
-  border: solid black;
+  min-width: 370px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: #fbf9f9;
 }
 
 .aboutUs {
@@ -45,14 +46,9 @@ p {
   text-decoration: underline;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 875px) {
   .cardContainer {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-  }
-}
-
-@media screen and (min-width: 900px) {
-  .cardContainer {
   }
 }
