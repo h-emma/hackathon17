@@ -1,0 +1,39 @@
+:root {
+  --primaryColor: rgb(223, 56, 50);
+  --textColor: black;
+}
+
+* {
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: Verdana, Tahoma, sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+h1 {
+  font-family: "Neucha";
+  color: var(--primaryColor);
+  font-size: 32px;
+}
+
+h2 {
+  font-family: "Neucha";
+  color: var(--primaryColor);
+  font-size: 32px;
+}
+
+p {
+  font-family: "Exo2";
+  font-size: 16px;
+}
+
+a {
+  font-family: "Exo2";
+}
+
+.btn-right {
+  text-align: right;
+}
