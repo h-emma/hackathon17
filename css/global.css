@@ -40,6 +40,8 @@ a {
   text-decoration: none;
 }
 
-.btn-right {
-  text-align: right;
+.top {
+  display: flex;
+  justify-content: space-between;
+  margin: 32px;
 }
