@@ -11,11 +11,16 @@ p {
   text-align: center;
 }
 
+.btn-right {
+  margin-top: 32px;
+}
+
 .cardContainer {
   display: grid;
   grid-template-columns: 1fr;
   gap: 16px;
   padding: 16px;
+  justify-items: center;
 }
 
 .cardItem {
@@ -42,12 +47,12 @@ p {
 
 @media screen and (min-width: 600px) {
   .cardContainer {
-    border-radius: 0%;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
   }
 }
 
 @media screen and (min-width: 900px) {
   .cardContainer {
-    grid-template-columns: repeat(2, 1fr);
   }
 }
