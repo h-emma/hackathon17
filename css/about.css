@@ -1,10 +1,14 @@
-main {
-  /* position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%); */
+/* main {
   display: inline-block;
+} */
+main {
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
 }
 h1,
 h2,
@@ -12,9 +16,9 @@ p {
   text-align: center;
 }
 
-.wrapper {
+/* .wrapper {
   text-align: center;
-}
+} */
 
 .cardContainer {
   display: grid;
