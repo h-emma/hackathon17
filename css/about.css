@@ -38,6 +38,10 @@ p {
   padding: 12px;
 }
 
+.link {
+  margin-bottom: 24px;
+}
+
 .yrgoLink {
   text-decoration: none;
   color: var(--primaryColor);
