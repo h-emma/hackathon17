@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Unity WebGL Player | New Unity Project</title>
-    <link rel="shortcut icon" href="TemplateData/favicon.ico" />
-    <link rel="stylesheet" href="TemplateData/style.css" />
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width="960" height="600"></canvas>
+      <canvas id="unity-canvas" width=960 height=600></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -27,11 +27,11 @@
     </div>
     <script>
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Hackathon project.loader.js";
+      var loaderUrl = buildUrl + "/Test2.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Hackathon project.data.gz",
-        frameworkUrl: buildUrl + "/Hackathon project.framework.js.gz",
-        codeUrl: buildUrl + "/Hackathon project.wasm.gz",
+        dataUrl: buildUrl + "/Test2.data.unityweb",
+        frameworkUrl: buildUrl + "/Test2.framework.js.unityweb",
+        codeUrl: buildUrl + "/Test2.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "New Unity Project",
@@ -72,16 +72,14 @@
       script.onload = () => {
         createUnityInstance(canvas, config, (progress) => {
           progressBarFull.style.width = 100 * progress + "%";
-        })
-          .then((unityInstance) => {
-            loadingBar.style.display = "none";
-            fullscreenButton.onclick = () => {
-              unityInstance.SetFullscreen(1);
-            };
-          })
-          .catch((message) => {
-            alert(message);
-          });
+        }).then((unityInstance) => {
+          loadingBar.style.display = "none";
+          fullscreenButton.onclick = () => {
+            unityInstance.SetFullscreen(1);
+          };
+        }).catch((message) => {
+          alert(message);
+        });
       };
       document.body.appendChild(script);
     </script>
