@@ -48,9 +48,5 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 32px;
+  margin: 12px 32px 12px 32px;
 }
-
-/* .pageLink {
-  background: url("/assets/images/btn-book.png");
-} */
