@@ -85,13 +85,14 @@ main {
 }
 
 #unity-mobile-warning {
-  display: flex;
   text-align: center;
-  justify-content: center;
 }
 
 @media screen and (min-width: 700px) {
   #unity-mobile-warning {
     display: none;
+  }
+  #unity-loading-bar {
+    display: block;
   }
 }

@@ -14,17 +14,17 @@ const config = {
 
 const mobileWarning = document.querySelector("#unity-mobile-warning");
 
-if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
-  config.devicePixelRatio = 1;
-  mobileWarning.style.display = "block";
-  setTimeout(() => {
-    mobileWarning.style.display = "none";
-  }, 5000);
-}
+// if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
+//   config.devicePixelRatio = 1;
+//   mobileWarning.style.display = "block";
+//   setTimeout(() => {
+//     mobileWarning.style.display = "none";
+//   }, 5000);
+// }
 
 const loadingBar = document.querySelector("#unity-loading-bar");
 const progressBarFull = document.querySelector("#unity-progress-bar-full");
-loadingBar.style.display = "block";
+// loadingBar.style.display = "block";
 
 const script = document.createElement("script");
 script.src = loaderUrl;
