@@ -29,6 +29,10 @@ main {
   text-align: center;
 }
 
+span {
+  font-family: "Neucha";
+}
+
 #unity-loading-bar span {
   display: inline-block;
   -webkit-animation: wave-text 1s ease-in-out infinite;

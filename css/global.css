@@ -20,16 +20,22 @@ button {
   background-color: var(--bgColor);
 }
 
-h1 {
-  font-family: "Neucha";
-  color: var(--primaryColor);
-  font-size: 32px;
+button:hover {
+  text-decoration: underline;
 }
 
+h1,
 h2 {
   font-family: "Neucha";
   color: var(--primaryColor);
-  font-size: 32px;
+  font-size: 24px;
+}
+
+@media screen and (min-width: 457px) {
+  h1,
+  h2 {
+    font-size: 32px;
+  }
 }
 
 p {

@@ -21,14 +21,39 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 24px;
+  justify-content: space-between;
+  padding: 8px;
   width: 270px;
+  height: 400px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   background-color: #fbf9f9;
 }
 
+.cardItem img {
+  width: 128px;
+  border-radius: 4px;
+}
+
+.contactIcon img {
+  display: flex;
+  width: 32px;
+  padding-top: 8px;
+}
+
+.contactIcon img:hover {
+  transform: scale(1.2);
+}
+
+.nameAboutUs {
+  border-bottom: solid gray 1px;
+}
 .aboutProject {
   padding: 12px;
+}
+
+.aboutProject p {
+  max-width: 756px;
+  margin: 12px 0px 48px 0px;
 }
 
 .link {
