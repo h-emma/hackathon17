@@ -27,6 +27,7 @@ p {
   width: 270px;
   height: 400px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 4px;
   background-color: #fbf9f9;
 }
 
@@ -50,6 +51,7 @@ p {
 }
 .aboutProject {
   padding: 12px;
+  margin-top: 32px;
 }
 
 .aboutProject p {
