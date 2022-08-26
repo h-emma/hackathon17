@@ -6,6 +6,7 @@ main {
 
 #unity-canvas {
   background: #fef2da;
+  border-radius: 4px;
 }
 
 #unity-container.unity-mobile {
