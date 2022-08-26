@@ -1,11 +1,11 @@
 const canvas = document.querySelector("#unity-canvas");
 
 const buildUrl = "Build";
-const loaderUrl = buildUrl + "/Test2.loader.js";
+const loaderUrl = buildUrl + "/Sammanslaget.loader.js";
 const config = {
-  dataUrl: buildUrl + "/Test2.data.unityweb",
-  frameworkUrl: buildUrl + "/Test2.framework.js.unityweb",
-  codeUrl: buildUrl + "/Test2.wasm.unityweb",
+  dataUrl: buildUrl + "/Sammanslaget.data.unityweb",
+  frameworkUrl: buildUrl + "/Sammanslaget.framework.js.unityweb",
+  codeUrl: buildUrl + "/Sammanslaget.wasm.unityweb",
   streamingAssetsUrl: "StreamingAssets",
   companyName: "DefaultCompany",
   productName: "New Unity Project",
